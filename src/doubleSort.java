@@ -19,6 +19,7 @@ public class doubleSort {
         for (i = 0; i < range; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println();
         System.out.println("Отсортированный массив:");
         for (i = 0; i < range; i++) {
             for (j = 1; j < range; j++) {

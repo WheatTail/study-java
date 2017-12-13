@@ -14,6 +14,7 @@ public class Compilate {
             System.out.println("6) Вычисление определителя (under construction)");
             System.out.println("7) Поиск индекса по числу");
             System.out.println("8) Сортировка по двум критериям и бинарный поиск");
+            System.out.println("9) Первая лаба в которой штото");
             switch (reader.nextInt()){
                 case 1:
                     Main a = new Main();
@@ -52,6 +53,11 @@ public class Compilate {
                     doubleSort g = new doubleSort();
                     g.main(args);
                     g=null;
+                    break;
+                case 9:
+                    pz1 h = new pz1();
+                    h.main(args);
+                    h=null;
                     break;
                 default:
                     System.out.println("Нет такого");

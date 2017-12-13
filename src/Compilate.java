@@ -7,12 +7,13 @@ public class Compilate {
             System.out.println("Главное меню");
             System.out.println("Введите номер работы");
             System.out.println("1) Какая-то сортировка");
-            System.out.println("2) Кратное pz7");
-            System.out.println("3) Ввод-вывод массива 8");
-            System.out.println("4) Сортировка пузырьком/перестановкой 9");
-            System.out.println("5) Сортировка пухырьком 11");
+            System.out.println("2) Кратное");
+            System.out.println("3) Ввод-вывод массива");
+            System.out.println("4) Сортировка пузырьком/перестановкой");
+            System.out.println("5) Сортировка пухырьком");
             System.out.println("6) Вычисление определителя (under construction)");
-            System.out.println("7) Поиск индекса по числу 13");
+            System.out.println("7) Поиск индекса по числу");
+            System.out.println("8) Сортировка по двум критериям и бинарный поиск");
             switch (reader.nextInt()){
                 case 1:
                     Main a = new Main();
@@ -46,6 +47,11 @@ public class Compilate {
                     pz13 f = new pz13();
                     f.main(args);
                     f = null;
+                    break;
+                case 8:
+                    doubleSort g = new doubleSort();
+                    g.main(args);
+                    g=null;
                     break;
                 default:
                     System.out.println("Нет такого");

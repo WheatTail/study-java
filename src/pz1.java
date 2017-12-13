@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class pz1 {
-    static Scanner reader = new Scanner(System.in);
+    public static Scanner reader = new Scanner(System.in);
     public static void main(String[] args){
         System.out.println("Введите два числа");
         int a = reader.nextInt();

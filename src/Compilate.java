@@ -15,6 +15,7 @@ public class Compilate {
             System.out.println("7) Поиск индекса по числу");
             System.out.println("8) Сортировка по двум критериям и бинарный поиск");
             System.out.println("9) Первая лаба в которой штото");
+            System.out.println("10) Множество");
             switch (reader.nextInt()){
                 case 1:
                     Main a = new Main();
@@ -58,6 +59,11 @@ public class Compilate {
                     pz1 h = new pz1();
                     h.main(args);
                     h=null;
+                    break;
+                case 10:
+                    union i = new union();
+                    i.main(args);
+                    i=null;
                     break;
                 default:
                     System.out.println("Нет такого");
